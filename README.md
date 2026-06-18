@@ -136,8 +136,21 @@ Developed as a backend analytics system for large-scale data processing and repo
 
 ## Load Test Results
 
+- Concurrent Users: 50
+- Total Requests Processed: 5,286
+- Average Response Time: 41.55 ms
+- Requests Per Second (RPS): 38.2
+- Failure Rate: 0%
+- All analytics endpoints responded well below the required 2-second threshold.
+
 ![Locust Dashboard](images/locust.png)
 
 ## Application Logs
+
+- FastAPI application started successfully.
+- Analytics endpoints were accessed successfully.
+- All requests returned HTTP 200 OK responses.
+- No application errors were observed during testing.
+- Successfully met the performance requirement by maintaining analytics API response times below 2 seconds under concurrent load, with 0% failures.
 
 ![Terminal Output](images/terminal.png)
