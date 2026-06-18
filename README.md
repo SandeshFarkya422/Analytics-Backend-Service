@@ -130,3 +130,12 @@ locust -f load_test/locustfile.py
 ## Author
 
 Developed as a backend analytics system for large-scale data processing and reporting.
+
+
+## Load Test Results
+
+![Locust Dashboard](images/locust.png)
+
+## Application Logs
+
+![Terminal Output](images/terminal.png)
