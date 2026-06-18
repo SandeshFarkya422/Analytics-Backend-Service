@@ -119,6 +119,8 @@ Run Locust:
 ```bash
 locust -f load_test/locustfile.py
 ```
+locust -f load_test/locustfile.py --host=http://localhost:8000
+
 
 ## Future Improvements
 
