@@ -1,0 +1,4 @@
+venv/
+load_test/
+__pycache__/
+.env
